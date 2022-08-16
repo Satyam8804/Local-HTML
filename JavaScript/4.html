@@ -1,0 +1,26 @@
+<!-- Adding method to our Objects -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function person(name,age){
+            this.name = name;
+            this.age =age;
+            this.yearUntilRetirement = yearsLeft;
+        }
+        function yearsLeft(){
+            var numYears = 65 - this.age;
+            return numYears;
+        }
+        var satyam = new person("Satyam Kumar" ,23);
+    </script>
+</head>
+<body>
+    <div>
+        <kbd>Control + C</kbd>
+    </div>
+    <script>
+        document.write(satyam.yearUntilRetirement());
+    </script>
+</body>
+</html>

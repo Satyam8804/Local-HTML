@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+.img{
+    position: relative;
+    margin-top: 200px;
+    width: 500px;
+    height: 500px;
+    margin-left: 0px;
+    transition: 3s;
+    
+}
+.img:hover{ 
+
+    transition-timing-function: ease-in;   
+margin-left: 80%;;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header{
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;  
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    }
+header ul {
+       position: relative;
+       display: flex;
+
+
+    }
+header ul li{
+         position: relative;
+        display: flex;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    color: #ffff;
+}
+ .container{
+    
+    margin-top: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+ }  
+ *{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    padding: 100px;
+ }
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+                <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+        </div>
+
+    </header>
+    <div  class="img">
+        <img src="pepsi.png" alt="" height="500px">
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statics</title>
+    <style>
+        html{
+            background-image: url(images/stats.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #box1 ,#box2{
+
+            display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+   
+    margin: 20px;
+        }
+        #container{
+            border: 1px solid silver;
+            width: 600px;
+            height: 500px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 200px;
+            margin-bottom: 200px;
+            background-color: rgba(67, 144, 207, 0.521);
+            border-radius: 14px;
+        }
+        #uploads,#views{
+            height: 40px;
+            width: 250px;
+            text-align: center;
+            border-radius: 14px;
+        }
+        table,tr,td,th{
+            border: 1px solid black;
+            padding: 2px;
+            border-spacing: 4px;
+            color: #fff;
+            border-radius: 14px;
+          
+        }
+        table{
+            background-color: cornflowerblue; 
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+          
+          
+        }
+        td{
+            background-color: rgb(194, 58, 85);
+            text-align: center;
+        }
+th{
+    background-color: rgba(79, 238, 79, 0.836);
+    height: 60px;
+  
+}
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Statics Or Reports</h1><hr><br><br>
+        <div id="box">
+        <div id="box1">
+            <h3>Total Number Of Uploads are :</h3>
+            <input type="text" name="uploads" id="uploads" readonly value="100">
+        </div>
+        <div id="box2">
+            <h3>Total Number Of Views :</h3>
+            <input type="text" name="views" id="views" readonly value="100k">
+        </div>
+        <div id="box3">
+            <h3>Placewise Details  :</h3>
+            <div >
+<table>
+<thead>
+    <td>Sr. no</td>
+    <td>City</td>
+    <td>Place Name</td>
+    <td>Type</td>
+    <td>Price  </td>
+
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Patna</td>
+<td>Kankarbagh</td>
+<td>House</td>
+<td>$100000</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Patna</td>
+        <td>Hanuman Nagar</td>
+        <td>Rent</td>
+        <td>$500</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>patna</td>
+    <td>Boring Road</td>
+    <td>Flat</td>
+    <td>$2000</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>-----</td>
+    <td>-----</td>
+    <td>-----</td>
+    <td>-----</td>
+</tr>
+    </tbody>
+    
+</tbody>
+
+</table>
+        </div>
+        
+       
+    </div>
+    </div>
+    </div>
+</body>
+</html>
